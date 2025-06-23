@@ -8,7 +8,7 @@ public class HelloWorldController {
 
     @GetMapping("message")
     public String getHello(){
-        return("Hello This From Docker Setup");
-        return("From Jenkinss");
+        return("Hello This From Docker Setup and from jenkins ");
+       
     }
 }
